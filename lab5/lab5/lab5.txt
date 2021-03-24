@@ -1,0 +1,19 @@
+class transaction 
+opcode
+operand_a
+operand_b
+print_transaction
+randomize_transaction
+
+
+Avem nevoie sa imapchetam transazction ca sa o separam de celelalte.
+Clasa driver: preia tranzactii si le pune pe interfata noastra. Instantare clasa tranzacstion si facem un obiect tr. Declaram o variabia care e interfata, se declara cuvantul cheie virtual ednumire interfata denumire local.
+Se face conexiune intre testbench si clasa driver prin constructor. 
+La functia new declaram ca parametru de intrare interfata noastra tb_ifc <= v.tb_ifc
+Trebuie sa punem semnalele de reset
+Fnctie reset signals: linii de cod pana la reset <=1 pt a reseta semnalele.
+Urmatoarea functie generate transaction: repeat de 3 ori, vom chema tr.randomize_transaction, tr.print_transaction, punem valorile din interfataD
+tr_ifc.cb.op_a <= tr.op_a
+tr_ifc.cb.op_b <= 
+driver.new(test), driver.reset_signals, driver.generate_transaction
+Clasa monitor: interfata prin new, 2 functii: read_register(codul din for) si print_results
