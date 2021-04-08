@@ -1,0 +1,102 @@
+# Reading C:/modeltech64_10.7/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# 0
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 19:39:41 on Apr 08,2021
+# vlog -reportprogress 300 -sv -timescale 1ps/1ps -work work -f sources.txt 
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling module instr_register_test
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(92): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(93): (vlog-2240) Treating stand-alone use of function 'assign_signals' as an implicit VOID cast.
+# -- Compiling interface tb_ifc
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:39:42 on Apr 08,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" -quiet -nocoverage "+notimingchecks" "+nowarnTSCALE" -sva top 
+# Start time: 19:39:42 on Apr 08,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-31) Unable to unlink file "C:/Users/Catalin/Desktop/TSC_Lab/lab6/sim/work/@_opt/_lib.qdb".
+# ** Warning: (vopt-31) Unable to unlink file "C:/Users/Catalin/Desktop/TSC_Lab/lab6/sim/work/@_opt/_lib3_0.qdb".
+# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
+# ** Warning: (vopt-31) Unable to unlink file "C:/Users/Catalin/Desktop/TSC_Lab/lab6/sim/work/@_opt/_lib3_0.qpg".
+# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
+# ** Warning: (vopt-31) Unable to unlink file "C:/Users/Catalin/Desktop/TSC_Lab/lab6/sim/work/@_opt/_lib3_0.qtl".
+# The process cannot access the file because it is being used by another process. (GetLastError() = 32)
+# ** Warning: (vopt-133) Unable to remove directory "C:/Users/Catalin/Desktop/TSC_Lab/lab6/sim/work/@_opt".
+# Result too large. (errno = ERANGE)
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(92): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(93): (vopt-2240) Treating stand-alone use of function 'assign_signals' as an implicit VOID cast.
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(79): (vopt-2250) Function "assign_signals" has no return value assignment.
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(110): Clocking block output vifc.cb.read_pointer is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Catalin  Hostname: DESKTOP-2NE3CG3  ProcessID: 9124
+#           Attempting to use alternate WLF file "./wlft6sv8yr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft6sv8yr
+# ** Error: (vish-4014) No objects found matching '/top/test_clk'.
+# Executing ONERROR command at macro ./wave.do line 4
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = -12
+#   operand_b = 7
+# 
+# Writing to register location x: 
+#   opcode = 4 (SUB)
+#   operand_a = -8
+#   operand_b = 13
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 1
+# 
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 6 (DIV)
+#   operand_a = -12
+#   operand_b = 7
+# 
+# Read from register location 1: 
+#   opcode = 4 (SUB)
+#   operand_a = -8
+#   operand_b = 13
+# 
+# Read from register location 2: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 1
+# 
+# ** Note: $finish    : ../lab01_testbench-interface/instr_register_test.sv(139)
+#    Time: 165 ns  Iteration: 2  Instance: /top/test
+# 1
+# Break in Module instr_register_test at ../lab01_testbench-interface/instr_register_test.sv line 139
+# Simulation Breakpoint: 1
+# Break in Module instr_register_test at ../lab01_testbench-interface/instr_register_test.sv line 139
+# MACRO ./run.do PAUSED at line 45
+# End time: 19:41:42 on Apr 08,2021, Elapsed time: 0:02:00
+# Errors: 3, Warnings: 11
