@@ -1,0 +1,212 @@
+# Reading C:/modeltech64_10.7/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.7 Dec  7 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# 1
+# Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+# Start time: 19:36:44 on Apr 15,2021
+# vlog -reportprogress 300 -sv -timescale 1ps/1ps -work work -f sources.txt 
+# -- Compiling package instr_register_pkg
+# -- Compiling module instr_register
+# -- Importing package instr_register_pkg
+# -- Compiling module instr_register_test
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(167): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(168): (vlog-2240) Treating stand-alone use of function 'assign_signals' as an implicit VOID cast.
+# -- Compiling interface tb_ifc
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 19:36:44 on Apr 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" -quiet -nocoverage "+notimingchecks" "+nowarnTSCALE" -sva top 
+# Start time: 19:36:44 on Apr 15,2021
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(167): (vopt-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(168): (vopt-2240) Treating stand-alone use of function 'assign_signals' as an implicit VOID cast.
+# ** Warning: ../lab01_testbench-interface/instr_register_test.sv(154): (vopt-2250) Function "assign_signals" has no return value assignment.
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(291): Clocking block output #parent#.vifc.cb.opcode is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(77): Clocking block output #parent#.vifc.cb.operand_a is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(82): Clocking block output #parent#.vifc.cb.operand_b is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(291): Clocking block output #parent#.vifc.cb.opcode is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(77): Clocking block output #parent#.vifc.cb.operand_a is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(82): Clocking block output #parent#.vifc.cb.operand_b is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(77): Clocking block output #parent#.vifc.cb.operand_a is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(82): Clocking block output #parent#.vifc.cb.operand_b is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(77): Clocking block output #parent#.vifc.cb.operand_a is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(77): Clocking block output #parent#.vifc.cb.operand_a is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(82): Clocking block output #parent#.vifc.cb.operand_b is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(77): Clocking block output #parent#.vifc.cb.operand_a is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(291): Clocking block output #parent#.vifc.cb.opcode is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Warning: (vsim-8441) ../lab01_testbench-interface/instr_register_test.sv(186): Clocking block output vifc.cb.read_pointer is not legal in this
+# or another expression.
+#    Time: 0 ps  Iteration: 0  Instance: /top/test File: ../lab01_testbench-interface/instr_register_test.sv
+# ** Error: (vish-4014) No objects found matching '/top/test_clk'.
+# Executing ONERROR command at macro ./wave.do line 4
+# 
+# Reseting the instruction register...
+# 
+# Writing values to register stack...
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = -12
+#   operand_b = 7
+# 
+# Writing to register location x: 
+#   opcode = 4 (SUB)
+#   operand_a = -8
+#   operand_b = 13
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 1
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 10
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = 7
+#   operand_b = 4
+# 
+# Writing to register location x: 
+#   opcode = 0 (ZERO)
+#   operand_a = -14
+#   operand_b = 8
+# 
+# Writing to register location x: 
+#   opcode = 4 (SUB)
+#   operand_a = 3
+#   operand_b = 13
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = -9
+#   operand_b = 11
+# 
+# Writing to register location x: 
+#   opcode = 4 (SUB)
+#   operand_a = -12
+#   operand_b = 10
+# 
+# Writing to register location x: 
+#   opcode = 5 (MULT)
+#   operand_a = 11
+#   operand_b = 3
+# 
+# Writing to register location x: 
+#   opcode = 5 (MULT)
+#   operand_a = 10
+#   operand_b = 13
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = -13
+#   operand_b = 12
+# 
+# Writing to register location x: 
+#   opcode = 7 (MOD)
+#   operand_a = -8
+#   operand_b = 2
+# 
+# Writing to register location x: 
+#   opcode = 4 (SUB)
+#   operand_a = -3
+#   operand_b = 7
+# 
+# Writing to register location x: 
+#   opcode = 4 (SUB)
+#   operand_a = 7
+#   operand_b = 0
+# 
+# Writing to register location x: 
+#   opcode = 5 (MULT)
+#   operand_a = 9
+#   operand_b = 4
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = -5
+#   operand_b = 13
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = -8
+#   operand_b = 6
+# 
+# Writing to register location x: 
+#   opcode = 3 (ADD)
+#   operand_a = -13
+#   operand_b = 0
+# 
+# Writing to register location x: 
+#   opcode = 6 (DIV)
+#   operand_a = 5
+#   operand_b = 6
+# 
+# 
+# Reading back the same register locations written...
+# Read from register location 0: 
+#   opcode = 6 (DIV)
+#   operand_a = -12
+#   operand_b = 7
+# 
+# Read from register location 1: 
+#   opcode = 4 (SUB)
+#   operand_a = -8
+#   operand_b = 13
+# 
+# Read from register location 2: 
+#   opcode = 6 (DIV)
+#   operand_a = 14
+#   operand_b = 1
+# 
+# ** Note: $finish    : ../lab01_testbench-interface/instr_register_test.sv(215)
+#    Time: 505 ns  Iteration: 2  Instance: /top/test
+# 1
+# Break in Module instr_register_test at ../lab01_testbench-interface/instr_register_test.sv line 215
+# Simulation Breakpoint: 1
+# Break in Module instr_register_test at ../lab01_testbench-interface/instr_register_test.sv line 215
+# MACRO ./run.do PAUSED at line 45
+# End time: 19:37:07 on Apr 15,2021, Elapsed time: 0:00:23
+# Errors: 3, Warnings: 17
